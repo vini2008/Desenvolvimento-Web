@@ -1,0 +1,23 @@
+h1 { color: rgb(1, 1, 6); }
+body {
+    font-family: Arial, sans-serif;   /* tipo da fonte */
+    font-size: 20px;                  /* tamanho */
+    font-weight: normal;              /* negrito (bold, normal) */
+    font-style: normal;               /* itálico (italic, normal) */
+}
+body{background-color: #c7cbcf;}
+h1 {
+    text-align: center;}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+}
+h3{
+    text-align: left;
+}

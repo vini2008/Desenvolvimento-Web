@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>Meu Portifolio</h1>
+<h1>Meu Portifolio ~ Marcus Vinicius</h1>
 <h2>Sobre mim</h2>
 <p>Sou uma pessoa muito tranquila, gosto de jogar video game, ouvir musica no tempo livre, gosta bastante de ouvir musicas de rock, além disso toco bateria quando tenho tempo, gosto de ficar com a minha familia e estudar sobre neurociencia quando tenho tempo, pois acho interresante.</p>
-<img src="imagens/perfil.jpg" alt="Foto de perfil do Marcus Vinicius, ele tirando uma foto na frente do espelho." style="width: 10%; border-radius: 50%; border: 2px solid black;">
-<h3>Galeria dos meus hobbies</h3>
+<img src="imagens/perfil.jpg" alt="Foto de perfil do Marcus Vinicius" style="width:220px;height:240px;border-radius: 50%; border: 8px solid #0c1318">
+<h2>Galeria dos meus hobbies</h2>
 <p>Meus hobby são jogar ping pong, tocar bateria no tempo livre e ouvir musica.</p>
-<img src="imagens/hobby1.jpg" alt="Homem jogando Ping Pong"width="150" >
-<img src="imagens/hobby2.jpg" alt="garoto tocando Bateria" width="100">
-<img src="imagens/hobby3.jpg" alt="garota ouvindo Musica" width="150">
+<img src="imagens/hobby1.jpg" alt="Jogando Ping Pong" width="150" style="border: #0c1318;">
+<img src="imagens/hobby2.jpg" alt="Tocando Bateria" width="100" style="border: #0c1318;">
+<img src="imagens/hobby3.jpg" alt="Ouvindo Musica" width="150" style="border: #0c1318;">
 <section id="conhecimentos">
-    <h4>Meus Conhecimentos</h4>
+    <h2>Meus Conhecimentos</h2>
     <table border="3">
         <tr>
             <th>Tecnologia</th>
@@ -41,29 +46,34 @@
     </table>
 </section>
 <section id="contato-form">
-    <h4>Entre em contato</h4>
+    <h3>Entre em contato</h3>
     
     <form>
-        <label for="nomeContato">Nome:</label>
+        <label for="nomeContato">Nome:</label><br>
         <input type="text" id="nomeContato" required>
         <br><br>
 
-        <label for="emailContato">E-mail:</label>
+        <label for="emailContato">E-mail:</label><br>
         <input type="email" id="emailContato" required>
         <br><br>
 
-        <label for="assunto">Assunto:</label>
+        <label for="assunto">Assunto:</label><br>
         <input type="text" id="assunto" placeholder="Dúvida, sugestão, orçamento...">
         <br><br>
 
-        <label for="mensagemContato">Mensagem:</label>
+        <label for="mensagemContato">Mensagem:</label><br>
         <textarea id="mensagemContato" placeholder="Digite sua mensagem aqui..."></textarea>
         <br><br>
 
         <button type="submit">Enviar mensagem</button>
     </form>
+    <h3>Para mais informações:</h3>
+<ul>
+    <li><a href="https://github.com/vini2008">Link para acessar o meu github</a></li>
+    <li><a href="https://www.linkedin.com/in/marcus-vinicius-1465263b5">Link para o meu linkedin</a></li>
+</ul>
+
 </section>
-<a href="https://github.com/vini2008">Link para acessar o meu github</a> <br>
-<a href="https://www.linkedin.com/in/marcus-vinicius-1465263b5">Link para acessar a pagina do meu Linkedin </a>
+
 </body>
 </html>
