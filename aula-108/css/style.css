@@ -1,0 +1,89 @@
+
+body {
+    background-color: #e3eff2;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: #2C3E50;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #3498DB;
+}
+
+.habilidades-lista {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.hab-item {
+    background-color: #ECF0F1;
+    padding: 10px 20px;
+    border-radius: 20px;  
+    border: 1px solid #BDC3C7;
+    font-weight: bold;
+}
+
+.galeria-hobbies {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.galeria-hobbies img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;   
+    border-radius: 10px;
+    border: 3px solid #0c1318;
+}
+
+.projetos-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.projeto-card {
+    background-color: white;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;           
+    min-width: 200px;   
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2C3E50;
+    color: white;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

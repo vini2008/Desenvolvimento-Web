@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#habilidades-grid">Conhecimentos</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato-form">Contato</a>
+</nav>
+
+<section id="sobre" class="card sobre-mim">
+    <h1>Meu Portifolio ~ Marcus Vinicius</h1>
+    <h2>Sobre mim</h2>
+    <p>Sou uma pessoa muito tranquila, gosto de jogar video game, ouvir musica no tempo livre, gosta bastante de ouvir musicas de rock, além disso toco bateria quando tenho tempo, gosto de ficar com a minha familia e estudar sobre neurociencia quando tenho tempo, pois acho interresante.</p>
+    <img src="imagens/perfil.jpg" alt="Foto de perfil do Marcus Vinicius" style="width:220px;height:240px;border-radius: 50%; border: 8px solid #0c1318">
+</section>
+
+<section id="hobbies">
+    <h2>Galeria dos meus hobbies</h2>
+    <p>Meus hobby são jogar ping pong, tocar bateria no tempo livre e ouvir musica.</p>
+    
+    <div class="galeria-hobbies">
+        <img src="imagens/hobby1.jpg" alt="Jogando Ping Pong">
+        <img src="imagens/hobby2.jpg" alt="Tocando Bateria">
+        <img src="imagens/hobby3.jpg" alt="Ouvindo Musica">
+    </div>
+</section>
+
+<section id="habilidades-grid">
+    <h2>Meus Conhecimentos</h2>
+
+    <div class="habilidades-lista" style="margin-bottom: 20px;">
+        <span class="hab-item">HTML</span>
+        <span class="hab-item">CSS</span>
+        <span class="hab-item">Java</span>
+    </div>
+
+    <table border="3">
+        <tr>
+            <th>Tecnologia</th>
+            <th>Nível</th>
+            <th>Experiência 12 meses</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Básico</td>
+            <td>2 meses</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Iniciante</td>
+            <td>1 mês</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Intermediario</td>
+            <td>8 meses</td>
+        </tr>
+    </table>
+</section>
+
+<section id="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="projetos-grid">
+        <div class="projeto-card">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto</p>
+        </div>
+        <div class="projeto-card">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto</p>
+        </div>
+        <div class="projeto-card">
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato-form">
+    <h3>Entre em contato</h3>
+    
+    <form>
+        <label for="nomeContato">Nome:</label><br>
+        <input type="text" id="nomeContato" required>
+        <br><br>
+
+        <label for="emailContato">E-mail:</label><br>
+        <input type="email" id="emailContato" required>
+        <br><br>
+
+        <label for="assunto">Assunto:</label><br>
+        <input type="text" id="assunto" placeholder="Dúvida, sugestão, orçamento...">
+        <br><br>
+
+        <label for="mensagemContato">Mensagem:</label><br>
+        <textarea id="mensagemContato" placeholder="Digite sua mensagem aqui..."></textarea>
+        <br><br>
+
+        <button type="submit">Enviar mensagem</button>
+    </form>
+    
+    <h3>Para mais informações:</h3>
+    <ul>
+        <li><a href="https://github.com/vini2008">Link para acessar o meu github</a></li>
+        <li><a href="https://www.linkedin.com/in/marcus-vinicius-1465263b5">Link para o meu linkedin</a></li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2026 - Meu Portfólio</p>
+    <div>
+        <a href="https://github.com/vini2008" target="_blank">GitHub</a> | 
+        <a href="https://www.linkedin.com/in/marcus-vinicius-1465263b5" target="_blank">LinkedIn</a>
+    </div>
+</footer>
+
+</body>
+</html>
