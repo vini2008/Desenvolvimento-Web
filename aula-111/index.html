@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio ~ Marcus Vinicius</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="layout">
+        <header class="header-principal">
+            <img src="imagens/perfil.jpg" alt="Foto de perfil de Marcus Vinicius" class="perfil-img">
+            
+            <div class="header-texto">
+                <h1>Meu Portfólio - Marcus Vinicius</h1>
+                <p>Sou uma pessoa muito tranquila, gosto de jogar videogame, ouvir música no tempo livre, gosto bastante de rock, além disso toco bateria quando tenho tempo, gosto de ficar com a minha família e estudar sobre neurociência quando tenho tempo, pois acho interessante.</p>
+            </div>
+        </header>
+
+        <nav class="nav-principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#habilidades-grid">Conhecimentos</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato-form">Contato</a>
+        </nav>
+
+        <main class="main-content">
+            
+            <section id="hobbies">
+                <h2>Galeria dos meus hobbies</h2>
+                <p>Meus hobbies são jogar ping pong, tocar bateria no tempo livre e ouvir música.</p>
+                
+                <div class="galeria-hobbies">
+                    <img src="imagens/hobby1.jpg" alt="Jogando Ping Pong">
+                    <img src="imagens/hobby2.jpg" alt="Tocando Bateria">
+                    <img src="imagens/hobby3.jpg" alt="Ouvindo Música">
+                </div>
+            </section>
+
+            <section id="habilidades-grid">
+                <h2>Meus Conhecimentos</h2>
+
+                <div class="habilidades-lista">
+                    <span class="hab-item">HTML</span>
+                    <span class="hab-item">CSS</span>
+                    <span class="hab-item">Java</span>
+                </div>
+
+                <div class="tabela-container">
+                    <table class="tabela-habilidades">
+                        <thead>
+                            <tr>
+                                <th>Tecnologia</th>
+                                <th>Nível</th>
+                                <th>Experiência (12 meses)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML</td>
+                                <td>Básico</td>
+                                <td>2 meses</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>Iniciante</td>
+                                <td>1 mês</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>Intermediário</td>
+                                <td>8 meses</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="projetos">
+                <h2>Meus Projetos</h2>
+                <div class="projetos-grid">
+                    <div class="projeto-card">
+                        <h3>Projeto 1</h3>
+                        <p>Crud, nosso projeto do primeiro semestre de fazer um crud em java</p>
+                    </div>
+                    <div class="projeto-card">
+                        <h3>Projeto 2</h3>
+                        <p>Projeto do meu portifolio, utilizando html e css</p>
+                    </div>
+                    <div class="projeto-card">
+                        <h3>Projeto 3</h3>
+                        <p>projeto em java, de uma calculadora de calculo simples</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contato-form">
+                <h3>Entre em contato</h3>
+                
+                <form>
+                    <div class="form-grupo">
+                        <label for="nomeContato">Nome:</label>
+                        <input type="text" id="nomeContato" required>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="emailContato">E-mail:</label>
+                        <input type="email" id="emailContato" required>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" placeholder="Dúvida, sugestão, orçamento...">
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="mensagemContato">Mensagem:</label>
+                        <textarea id="mensagemContato" placeholder="Digite sua mensagem aqui..."></textarea>
+                    </div>
+
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </section>
+
+        </main>
+
+        <footer class="footer-principal">
+            <h3>Para mais informações:</h3>
+            
+            <div class="footer-redes">
+                <a href="https://github.com/vini2008" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/marcus-vinicius-1465263b5" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+
+            <p>&copy; 2026 - Meu Portfólio</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
