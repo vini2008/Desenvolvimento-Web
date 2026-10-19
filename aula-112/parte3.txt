@@ -1,0 +1,8 @@
+Explorar o WordPressO que é um tema no WordPress?
+É o conjunto de ficheiros que define o design, o aspeto visual e a estrutura geral de como o site é apresentado aos utilizadores.   
+O que é um plugin? (Dê 2 exemplos):
+São ferramentas ou módulos adicionais que acrescentam novas funcionalidades ao site.   Exemplos: WooCommerce (para criar lojas virtuais) e Contact Form 7 (para criar formulários de contacto).
+Qual a diferença entre página e post?
+As páginas são conteúdos estáticos, permanentes e estruturais do site (como "Sobre Mim" ou "Contactos"). Os posts são artigos de blog organizados por ordem cronológica inversa (como notícias ou publicações recentes).   
+O WordPress é gratuito? (Explique):
+Sim, o software base (WordPress.org) é de código aberto e totalmente gratuito para descarregar e instalar. Contudo, tens de pagar à parte o serviço de alojamento (hosting) e o domínio do site.   

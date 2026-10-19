@@ -1,0 +1,6 @@
+Informação             Template 1                                            Template 2
+Nome                   Devfolio                                             Freelancer
+Tema                   Portfólio profissional                               Portfólio / Página pessoal
+O que gostou?          O design limpo, modo escuro e animações suaves.      A grelha de portfólio com modais e formulário de contacto integrado.
+O que modificaria?     As cores principais de destaque e a biografia.       O estilo dos ícones e a tipografia das fontes.
+É responsivo?          Sim                                                  Sim
