@@ -1,6 +1,6 @@
 alert("Bem-vindo(a) ao meu portfólio!");
 function apresentacao() {
-    alert("Olá! Meu nome é Marcus Vinicius e sou estudante de Desenvolvimento Web. E esse é o site do meu Portifolio !!!");
+    alert("Olá! Meu nome é Marcus Vinicius e sou estudante de Desenvolvimento Web. E esse é o site do meu Portfólio !!!");
 }
 function destacarSobre() {
     document.getElementById("sobre").style.backgroundColor = " #243e58";
@@ -12,7 +12,6 @@ function modoEscuro() {
     let botao = document.getElementById("btn-tema");
     let modoAtual = corpo.style.backgroundColor;
 
-    // Se estiver no escuro, volta para o claro
     if (modoAtual === "rgb(26, 26, 46)" || modoAtual === "#1a1a2e") {
         corpo.style.backgroundColor = "#e3eff2";
         corpo.style.color = "#2c3e50";
@@ -43,11 +42,9 @@ function modoEscuro() {
             item.style.borderColor = "#BDC3C7";
         });
 
-        // Muda o texto do botão para "Modo Escuro" já que agora voltou ao claro
         botao.innerText = "Modo Escuro";
 
     } else {
-        // Se estiver no claro, ativa o modo escuro
         corpo.style.backgroundColor = "#1a1a2e";
         corpo.style.color = "#ffffff";
 
@@ -77,7 +74,6 @@ function modoEscuro() {
             item.style.borderColor = "#0f3460";
         });
 
-        // Muda o texto do botão para "Modo Claro" já que agora está escuro
         botao.innerText = "Modo Claro";
     }
 }
@@ -109,6 +105,5 @@ document.getElementById("seuFormulario").addEventListener("submit", function(e) 
     feedback.textContent = "✅ Mensagem enviada com sucesso!";
     feedback.style.color = "green";
 
-    // Opcional: limpar formulário
     this.reset();
 });
