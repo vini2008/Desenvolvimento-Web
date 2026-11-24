@@ -2,11 +2,6 @@ alert("Bem-vindo(a) ao meu portfólio!");
 function apresentacao() {
     alert("Olá! Meu nome é Marcus Vinicius e sou estudante de Desenvolvimento Web. E esse é o site do meu Portfólio !!!");
 }
-function destacarSobre() {
-    document.getElementById("sobre").style.backgroundColor = " #243e58";
-    document.getElementById("sobre").style.border = "2px solid #e3eff2";
-    document.getElementById("sobre").style.borderRadius = "10px";
-}
 function modoEscuro() {
     let corpo = document.body;
     let botao = document.getElementById("btn-tema");
