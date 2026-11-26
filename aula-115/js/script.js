@@ -1,4 +1,3 @@
-alert("Bem-vindo(a) ao meu portfólio!");
 function apresentacao() {
     alert("Olá! Meu nome é Marcus Vinicius e sou estudante de Desenvolvimento Web. E esse é o site do meu Portfólio !!!");
 }
