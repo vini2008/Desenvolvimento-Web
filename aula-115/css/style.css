@@ -1,4 +1,4 @@
-aula-111/css/style.css* {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,6 +14,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 .layout {
     display: grid;
     grid-template-areas:
@@ -212,6 +213,46 @@ button[type="submit"]:hover {
     background-color: #3498DB;
 }
 
+.curriculo-acao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.botao.botao-cv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #2C3E50 0%, #3498DB 100%);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 13px 24px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 6px 14px rgba(44, 62, 80, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.botao.botao-cv:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 18px rgba(52, 152, 219, 0.35);
+    filter: brightness(1.07);
+}
+
+.botao.botao-cv:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rgba(44, 62, 80, 0.2);
+}
+
+.botao.botao-cv i {
+    font-size: 17px;
+}
+
 .footer-principal {
     grid-area: footer;
     background: #2C3E50;
@@ -220,7 +261,7 @@ button[type="submit"]:hover {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza tudo no mobile */
+    align-items: center;
     justify-content: center;
     gap: 15px;
     text-align: center;
@@ -249,19 +290,19 @@ button[type="submit"]:hover {
     justify-content: center;
     width: 45px;
     height: 45px;
-    background-color: rgba(255, 255, 255, 0.1); /* Cria um pequeno círculo/fundo sutil pro ícone */
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
 
 .footer-redes a:hover {
     color: #3498DB;
     background-color: rgba(255, 255, 255, 0.2);
-    transform: translateY(-3px); /* Efeito elegante de subir levemente */
+    transform: translateY(-3px);
 }
 
 .footer-principal p {
     font-size: 14px;
-    opacity: 0.8; /* Deixa o copyright um pouco mais suave */
+    opacity: 0.8;
     margin-top: 5px;
 }
 
@@ -293,6 +334,10 @@ button[type="submit"]:hover {
 
     .projetos-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .curriculo-acao {
+        justify-content: flex-end;
     }
 
     .footer-principal {
@@ -341,4 +386,28 @@ button[type="submit"]:hover {
     color: #155724;
     background-color: #d4edda;
     border: 1px solid #c3e6cb;
+}
+.header-texto button {
+    background-color: #3b424c;
+    color: #f1f5f9;
+    border: 1px solid #5c6675;
+    padding: 9px 16px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.header-texto button:hover {
+    background-color: #4e5866;
+    border-color: #7a8699;
+    transform: translateY(-1px);
+}
+
+.header-texto button:active {
+    transform: translateY(0);
 }

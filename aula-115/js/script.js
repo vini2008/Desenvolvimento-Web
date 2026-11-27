@@ -74,9 +74,9 @@ function modoEscuro() {
 document.getElementById("seuFormulario").addEventListener("submit", function(e) {
     e.preventDefault();
 
-    let nome = document.getElementById("nome").value;
-    let email = document.getElementById("email").value;
-    let mensagem = document.getElementById("mensagem").value;
+    let nome = document.getElementById("nome").value.trim();
+    let email = document.getElementById("email").valu.trim();
+    let mensagem = document.getElementById("mensagem").value.trim();
     let feedback = document.getElementById("feedback");
 
     feedback.textContent = "";
