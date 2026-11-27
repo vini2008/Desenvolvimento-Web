@@ -75,7 +75,7 @@ document.getElementById("seuFormulario").addEventListener("submit", function(e) 
     e.preventDefault();
 
     let nome = document.getElementById("nome").value.trim();
-    let email = document.getElementById("email").valu.trim();
+    let email = document.getElementById("email").value.trim();
     let mensagem = document.getElementById("mensagem").value.trim();
     let feedback = document.getElementById("feedback");
 
